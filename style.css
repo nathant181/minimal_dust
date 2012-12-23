@@ -1,0 +1,283 @@
+/*
+Theme Name: minimal dust
+Theme URI: http://afternoondust.co.uk
+Version: 0.7
+Author: Nathan Thomas
+Author URI: http://afternoondust.co.uk
+*/
+
+/* Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,blockquote,th,td {margin:0;padding:0;}img {border:0;}em,strong, {font-style:normal;font-weight:normal;}ol,ul {list-style:none;}h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+
+/* minimal dust Style */
+
+body {
+	color: #000;
+	font-family: 'VollkornRegular', serif;
+	font-size: 100%;
+	line-height: 2;
+	background: #ebebeb;
+	height: 100%;
+}
+
+A:link {text-decoration: underline; color: #CC3300;}
+A:visited {text-decoration: underline; color: #CC3300;}
+A:hover {text-decoration: underline; color: #330099;}
+
+/* Header */
+#header {
+	text-align: center; /* Fix centering in IE */
+	line-height: 1.5;
+	width: 60%;
+	margin: 4em auto;
+}
+
+#header .sitename {
+	font-size: 300%;
+	color: #000;
+	text-align: justify;
+}
+#header .sitename a:link {
+	text-decoration: none;
+}
+#header .sitename a:visited {
+	color: #000;
+	text-decoration: none;
+}
+#header .sitename a:hover {
+	color: #330099;
+	text-decoration: underline;
+}
+#header .tagline {
+	font-style: italic;
+	font-size: 100%;
+	color: #666666;
+	text-align: justify;
+}
+
+#navigation {
+	text-align: center; /* Fix centering in IE */
+	margin: 20px 0 0;
+}
+
+.pager {
+	width: 70%;
+	margin: auto;
+	font-size: 110%;
+	text-align: justify;
+}
+.pages h2 {
+	margin: 0 auto;
+	font-weight: normal;
+}
+
+/* Content */
+
+.content {
+	text-align: center; /* Fix centering in IE */
+	width: 60%;
+	margin: auto;
+}
+
+.title {
+	font-size: 140%;
+	display: block;
+	border-top: 2px solid #330099;
+	padding-top: 10px;
+	text-align: justify;
+}
+.title a:link {
+	text-decoration: none;
+	color: #000;
+}
+.title a:visited {
+	text-decoration: none;
+	color: #000;
+}
+.title a:hover {
+	text-decoration: underline;
+	color: #330099;
+}
+
+.meta {
+	font-style: italic;
+	font-size: 100%;
+	color: #666666;
+	text-align: justify;
+	margin: 0 auto 30px;
+}
+
+#post {
+	text-align: justify;
+	margin: 0 auto 80px;
+}
+#post p {
+	margin: 20px 0 0;
+	display: block;
+	clear: both;
+}
+#post ul {
+	list-style-type: disc;
+	padding: 15px 20px;
+}
+#post ol {
+	list-style-type: decimal;
+	padding: 15px 20px;
+}
+#post li {
+	padding: 5px 0 0;
+}
+#post img, object {
+	text-align: center;
+	margin: 0 auto 20px;
+}
+/* For the footnotes plugin */
+#post .footnotes {
+	margin: 50px 0 0 0;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 5px;
+}
+h2 {
+	margin-bottom: 10px;
+	font-size: 100%;
+	margin: 20px 0 0;
+	font-weight: bold;
+}
+h3 {
+	font-size: 110%;
+}
+blockquote {
+	font-style: italic;
+	max-width: 80%;
+	display: block;
+	margin: 20px 0 40px;
+}
+
+/* Comments */
+
+#comments {
+	margin: 30px auto 0;
+	text-align: center; /* Fix centering in IE */
+	width: 60%;
+}
+.comments-title {
+	text-align: justify;
+	margin: auto;
+	border-top: 2px solid #CC3300;
+	padding-top: 10px;
+}
+#post-comments {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: justify;
+	margin: auto;
+}
+.post-comment-commentor {
+    	font-style: italic;
+	color: #666666;
+}
+.post-comment-body {
+	margin-left: 40px;
+	padding-bottom: 20px;
+	font-style: normal;
+}
+.post-comment-link {
+	margin-top: 10px;
+	text-align: right;
+}
+.commentauthor {
+}
+#comment-form {
+	table-layout: auto;
+	text-align: justify;
+	margin: 20px auto 0px;
+}
+.formcontrol {
+	padding: 0.5em 0;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+	width: 100%;
+	height: 35px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+.secondary1 {
+	display: inline;
+	float: left;
+}
+.secondary2 {
+	float: right;
+	display: inline;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 2%;
+	width: 48%;
+}
+#sidebar li {
+	display: inline;
+	float: left;
+	margin-left: 5px;
+	padding: 5px 10px 0;
+}
+#sidebar a:link {
+	color: #330099;
+	text-decoration: none;
+}
+#sidebar a:visited {
+	color: #330099;
+	text-decoration: none;
+}
+#sidebar a:hover {
+	color: #999999;
+	text-decoration: underline;
+}
+#strong {
+	font-weight: bold;
+}
+
+form {
+	padding: 0;
+}
+form div {
+	margin-bottom: 15px;
+}
+fieldset {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+textarea {
+	width: 90%;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+label {
+	float: left;
+	margin-right: 20px;
+	width: 150px;
+}
+
+/* Footer */
+
+#footer {
+	width: 100%;
+	background-color: #d1d1d1;
+	margin-top: 100px;
+}
+.credits {
+	display: inline;
+	text-align: right;
+	width: 25%;
+	font-size: 100%;
+	float: right;
+	padding-right: 30px;
+}
+.credits a:link {
+	color: #330099;
+}
