@@ -34,7 +34,8 @@
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<?php URL::out( 'rsd' ); ?>">
 	<link rel="stylesheet" type="text/css" media="screen" href="<?php Site::out_url( 'theme' ); ?>/style.css">
 	<link rel="Shortcut Icon" href="<?php Site::out_url( 'theme' ); ?>/images/favicon.ico">
-	<?php $theme->header(); ?>	
+	<?php $theme->header(); ?>
+	
 </head>
 
 <body>

@@ -1,9 +1,5 @@
 <?php if ( !defined( 'HABARI_PATH' ) ) { die('No direct access'); } ?>
-<?php include_once("analyticstracking.php") ?>
-
-<div>
-	<?php include 'header.php'; ?>
-</div>
+<?php include 'header.php'; ?>
 
 <?php foreach ( $posts as $post ) { ?>
 	<div class="content">

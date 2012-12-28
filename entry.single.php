@@ -1,9 +1,5 @@
 <?php if ( !defined( 'HABARI_PATH' ) ) { die('No direct access'); } ?>
-<?php include_once("analyticstracking.php") ?>
-
-<div>
-	<?php echo $theme->display ( 'header' ); ?>
-</div>
+<?php echo $theme->display ( 'header' ); ?>
 
 <div class="content">
 	<div class="title">

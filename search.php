@@ -1,9 +1,5 @@
 <?php if ( !defined( 'HABARI_PATH' ) ) { die('No direct access'); } ?>
-<?php include_once("analyticstracking.php") ?>
-
-<div>
-    <?php include 'header.php'; ?>
-</div>
+<?php include 'header.php'; ?>
 
 <div id="header">
     <h3>Search Results for '<?php echo htmlspecialchars( $criteria ); ?>'</h3>
