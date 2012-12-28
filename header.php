@@ -5,6 +5,27 @@
 	<!-- Import font -->
 	<link rel="stylesheet" href="<?php Site::out_url( 'theme' ); ?>/font/stylesheet.css" type="text/css" charset="utf-8">
 	
+	<!-- Google JQuery API -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	
+	<!-- MediaElement -->
+	<link rel="stylesheet" href="<?php Site::out_url( 'theme' ); ?>/css/MediaElement/mediaelementplayer.css" />
+	<script src="<?php Site::out_url( 'theme' ); ?>/js/jquery.js"></script>
+	<script src="<?php Site::out_url( 'theme' ); ?>/js/MediaElement/mediaelement-and-player.min.js"></script>
+	<script>
+	// using jQuery
+	$('video,audio').mediaelementplayer(/* Options */);
+	</script>
+
+	<!-- Colorbox -->
+	<link rel="stylesheet" href="<?php Site::out_url( 'theme' ); ?>/css/colorbox.css" />
+        	<script src="<?php Site::out_url( 'theme' ); ?>/js/jquery.colorbox.js"></script>
+        	<script>
+           	jQuery(document).ready(function () {
+            		jQuery('a.gallery').colorbox({ opacity:0.9 , rel:'group1' });
+            	});
+        	</script>
+	
 	<meta http-equiv="Content-Type" content="text/html">
 	<title><?php if($request->display_entry && isset($post)) { echo "{$post->title} - "; } ?><?php Options::out( 'title' ) ?></title>
 	<meta name="generator" content="Habari">
@@ -17,6 +38,11 @@
 </head>
 
 <body>
+	
+	<div id="sidebar">
+		<?php echo $theme->display('sidebar'); ?>
+	</div>
+	
 	<div id="header">
 		<p class="sitename">
 			<a href="<?php Site::out_url( 'habari'); ?>" title="<?php Options::out( 'title' ); ?>"> <?php Options::out( 'title' ); ?></a>

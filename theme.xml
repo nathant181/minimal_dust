@@ -4,7 +4,7 @@
 	<name>minimal dust</name>
 	<author>Nathan Thomas</author>
 	<url>http://afternoondust.co.uk</url>
-	<version>0.7</version>
+	<version>0.8</version>
 	<template_engine>rawphpengine</template_engine>
 	<description>Simple, colourful, plenty of empty space.</description>
 	<areas>

@@ -1,8 +1,5 @@
 <?php if ( !defined( 'HABARI_PATH' ) ) { die('No direct access'); } ?>
-
-<div id="sidebar">
-	<?php echo $theme->display ( 'sidebar' ); ?>
-</div>
+<?php include_once("analyticstracking.php") ?>
 
 <div>
 	<?php echo $theme->display ( 'header' ); ?>
@@ -18,6 +15,19 @@
 	<div id="post">
 		<?php echo $post->content_out; ?>
 	</div>
+	
+	<div id="addthis">
+	<!-- AddThis Button BEGIN -->
+		<div class="addthis_toolbox addthis_default_style ">
+			<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+			<a class="addthis_button_tweet"></a>
+			<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+			<a class="addthis_counter addthis_pill_style"></a>
+		</div>
+		<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f019c39727751b5"></script>
+	<!-- AddThis Button END -->
+	</div>
+
 </div>
 
 <div id="comments">

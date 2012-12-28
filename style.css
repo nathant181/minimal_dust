@@ -1,7 +1,7 @@
 /*
 Theme Name: minimal dust
 Theme URI: http://afternoondust.co.uk
-Version: 0.7
+Version: 0.8
 Author: Nathan Thomas
 Author URI: http://afternoondust.co.uk
 */
@@ -131,9 +131,12 @@ A:hover {text-decoration: underline; color: #330099;}
 	text-align: center;
 	margin: 0 auto 20px;
 }
-/* For the footnotes plugin */
 #post .footnotes {
 	margin: 50px 0 0 0;
+}
+#addthis {
+	text-align: justify;
+	margin: 10px auto;
 }
 
 h1 {
