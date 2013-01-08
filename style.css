@@ -154,9 +154,9 @@ h3 {
 }
 blockquote {
 	font-style: italic;
-	max-width: 80%;
 	display: block;
 	margin: 20px 0 40px;
+	padding: 0 10%;
 }
 
 /* Comments */
